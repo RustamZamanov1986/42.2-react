@@ -1,0 +1,28 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Profile-Card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 800px;
+  height: 500px;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  font-size: 23px;
+  background: linear-gradient(to right, #700bb8, #4e0284);
+}
+
+.Profile-Card-Image {
+  width: 110px;
+  height: 160px;
+  border-radius: 5px;
+  object-fit: cover;
+}
