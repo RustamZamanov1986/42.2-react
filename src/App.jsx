@@ -1,13 +1,12 @@
-import "./App.css";
-import Button from "./components/Button/Button";
-import LessonCard from "./components/LessonCard/LessonCard";
+import ProfileCard from "./components/ProfileCard/ProfileCard.jsx";
+import "./components/ProfileCard/styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <LessonCard />
-      <Button />
-      <Button />
+    <div>
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
     </div>
   );
 }
