@@ -3,10 +3,10 @@ import thanosImage from "../assets/thanos.JPG";
 
 function ProfileCard() {
   return (
-    <div className="Container">
-      <div className="Profile-Card">
+    <div className="container">
+      <div className="profile-Card">
         <h3>Profile Card</h3>
-        <img src={thanosImage} alt="Avatar" className="Profile-Card-Image" />
+        <img src={thanosImage} alt="Avatar" className="profile-Card-Image" />
         <h4>Θάνος</h4>
         <h5> &#60; Powerful Titan &#62; &#128187;</h5>
         <p className="font-size">
