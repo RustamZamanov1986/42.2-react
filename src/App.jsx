@@ -1,14 +1,12 @@
-import ProfileCard from "./components/ProfileCard/ProfileCard.jsx";
-import "./components/ProfileCard/styles.css";
+import ProfileCard from "./components/ProfileCard/ProfileCard";
 
 function App() {
   return (
-    <div>
-      <ProfileCard />
-      <ProfileCard />
-      <ProfileCard />
+    <div className="App">
+    <ProfileCard />
+    <ProfileCard />
+    <ProfileCard />
     </div>
   );
 }
-
 export default App;
